@@ -42,6 +42,10 @@ dynamic languages.
 **[06-record.exs](06-record.exs)** - Where are our beloved objects? In functional programming, data is just data, and Elixir gives you
 the Record structure to organize it a bit. Records are a little like Struct from other imperative languages, except of
 course they are immutable!
+- Read about Record and Record.defrecord 
+1) Open `iex`
+2) Inside iex run `h Record` and after it run `h Record.defrecord`
+- Try to create your own record inside IEx which is already open in your terminal
 
 **[07-fibonacci.exs](07-fibonacci.exs)** - You learn recursion by using recursion! We learn about multiple methods of the same name,
 pattern matching, and guard clauses, cool! Finally we do it all over again, backwards! (Hey, why not?)
