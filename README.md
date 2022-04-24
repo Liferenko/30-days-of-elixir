@@ -27,9 +27,14 @@ testing library ExUnit is capable and easy-to-use.
 
 **[03-input-output.exs](03-input-output.exs)** - Here we learn that file input and user input are easy. José has even done us a solid and
 duplicated some familiar Path and File methods from Ruby.
+- Two types to run it: 
+1) `mix run ../03-input-output.exs`
+2) `elixir 03-input-output.exs`
+
 
 **[04-list.exs](04-list.exs)** - What's a functional language without a List? Here we learn some simple list manipulation, and for
 awhile we can pretend lists are like our familiar Ruby arrays. :-)
+- Run `mix test test/04_day_list_test.exs`
 
 **[05-map.exs](05-map.exs)** - Maps are the go-to key-value structure in Elixir, and the syntax is fairly simple coming from other
 dynamic languages.
