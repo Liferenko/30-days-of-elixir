@@ -1,5 +1,7 @@
 # 30 Days of Elixir
 
+Updated and kinda-from-scratch Elixir tutorial based on seven1m's repo.
+
 A walk through the [Elixir](http://elixir-lang.org/) language, one exercise per day for 30 days.
 
 ## Frequently Asked Question:
@@ -13,9 +15,15 @@ break it, rewrite the code in your own style, etc. Experiment, and if you find a
 ### You have to start somewhere.
 
 **[01-hello-world.exs](01-hello-world.exs)** - We start at the very beginning: our first message to the world!
+- Try `elixir 01-hello-world.exs`. IO.puts "hello world"
+- If it doesn't work - oh-uh, let's try install Elixir. How? ihttps://thinkingelixir.com/install-elixir-using-asdf/
 
 **[02-unit-testing.exs](02-unit-testing.exs)** - We'll need unit testing for the rest of the exercises, so let's do this! The built-in unit
 testing library ExUnit is capable and easy-to-use.
+- Run `mix test test/02_day_test.exs`
+- Try to break some test cases to make them red. Run `mix test test/02_day_test.exs` one more time
+- Try to make them green again
+- Copy-paste some of these test cases and try to make them green again
 
 **[03-input-output.exs](03-input-output.exs)** - Here we learn that file input and user input are easy. José has even done us a solid and
 duplicated some familiar Path and File methods from Ruby.

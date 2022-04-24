@@ -1,11 +1,4 @@
-# http://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html
-# https://hexdocs.pm/ex_unit/ExUnit.html
-#
-# mix test
-
-ExUnit.start                                # set up the test runner
-
-defmodule MyTest do
+defmodule SecondDayTest do
   use ExUnit.Case                           # use requires a module and sets up macros; will explore more later
 
   test 'simple test' do
